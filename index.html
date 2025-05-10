@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Oyunlarla Destanlar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Baloo 2', sans-serif;
+      background: #000;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+    header {
+      background: #FF0000;
+      color: white;
+      padding: 30px;
+      text-align: center;
+      border-bottom: 5px solid #fff;
+    }
+    .container {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+      background: #111;
+      border-radius: 15px;
+      margin-top: 30px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+      border: 3px solid #FF0000;
+    }
+    .download-buttons {
+      display: flex;
+      gap: 20px;
+      margin: 30px 0;
+    }
+    a.button {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #FF0000;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 18px;
+      text-align: center;
+      flex: 1;
+      transition: all 0.3s;
+      border: 2px solid #fff;
+    }
+    a.button:hover {
+      background: #cc0000;
+      transform: scale(1.05);
+    }
+    h2 {
+      color: #FF0000;
+      font-size: 28px;
+      border-bottom: 2px solid #FF0000;
+      padding-bottom: 10px;
+    }
+    h3 {
+      color: #FF6F00;
+    }
+    ol, ul {
+      line-height: 1.8;
+    }
+    code {
+      background: #333;
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+    .site-link {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .site-link a {
+      color: #FF0000;
+      font-weight: bold;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    .site-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Oyunlarla Destanlar</h1>
+  <p>Oğuz Kağan Destanı’nı Minecraft ile öğren!</p>
+</header>
+
+<div class="container">
+  <h2>Haritamız Hakkında</h2>
+  <p>Bu harita, çocuklara Oğuz Kağan Destanı’nı öğretmeyi amaçlayan interaktif bir Minecraft Bedrock haritasıdır. Parkurlar, labirentler ve mini testlerle öğrenme süreci eğlenceli hale gelir.</p>
+
+  <h2>Haritayı İndir</h2>
+  <div class="download-buttons">
+    <a class="button" href="https://drive.google.com/your-map-link" download>Haritayı .mcworld Olarak İndir</a>
+    <a class="button" href="harita.zip" download>Haritayı ZIP Olarak İndir</a>
+  </div>
+
+  <h2>Harita Kurulumu</h2>
+  <p>Haritamızı indirdikten sonra aşağıdaki adımları takip ederek kolayca oynayabilirsiniz!</p>
+
+  <h3>Bilgisayar (Windows 10/11 – Minecraft Bedrock)</h3>
+  <ol>
+    <li><strong>“Haritayı İndir”</strong> butonuna tıklayın.</li>
+    <li>İnen <code>.mcworld</code> veya <code>.zip</code> dosyasına çift tıklayın veya çıkartın.</li>
+    <li>Minecraft açılacak ve harita otomatik yüklenecektir.</li>
+    <li>“Dünyalar” menüsünde haritayı bulabilirsiniz.</li>
+  </ol>
+
+  <h3>Android (Minecraft Pocket Edition)</h3>
+  <ol>
+    <li><strong>“Haritayı İndir”</strong> butonuna dokunun.</li>
+    <li>İnen dosyayı açmak için dosya yöneticisi veya MC Addons Manager kullanın.</li>
+    <li>Minecraft açılır ve haritayı yükler.</li>
+    <li>“Dünyalar” kısmında görebilirsiniz.</li>
+  </ol>
+
+  <h3>iPhone / iPad (iOS – Minecraft PE)</h3>
+  <ol>
+    <li>Safari ile “Haritayı İndir” butonuna tıklayın.</li>
+    <li>İnen dosyayı açmak için “Documents by Readdle” veya “iZip” gibi uygulamalar kullanabilirsiniz.</li>
+    <li>“Minecraft ile Aç” seçeneğini seçin.</li>
+    <li>Minecraft otomatik olarak yükleyecektir.</li>
+  </ol>
+
+  <h2>Haritayı Siteye Nasıl Yüklerim?</h2>
+  <p>Eğer bu haritayı kendi sitenizde paylaşmak istiyorsanız:</p>
+  <ol>
+    <li><strong>Harita dosyasını (.mcworld veya .zip) Google Drive veya Dropbox'a yükleyin.</strong></li>
+    <li><strong>Dosya bağlantısını alın ve yukarıdaki indirme butonlarına link olarak ekleyin.</strong></li>
+    <li><strong>Alternatif olarak, GitHub Pages veya Netlify gibi ücretsiz hosting hizmetleriyle sitenizi yayınlayabilirsiniz.</strong></li>
+  </ol>
+
+  <div class="site-link">
+    <p>Bu site şu adreste yayınlanıyor: <a href="https://oyunlarla-destanlar.netlify.app" target="_blank">https://oyunlarla-destanlar.netlify.app</a></p>
+  </div>
+
+  <h2>Geliştirici Ekip</h2>
+  <ul>
+    <li>Adem Anıl Uysal</li>
+    <li>Bilgi Ulaş Tufan</li>
+    <li>Ömer Kerem Doman</li>
+  </ul>
+
+  <h2>Veliler İçin</h2>
+  <p>Bu harita, çocuklara tarihî bir destanı öğretirken aynı zamanda problem çözme, dikkat ve yön bulma gibi becerileri geliştirmeye yöneliktir. Şiddet içermez, yaşa uygundur.</p>
+</div>
+
+</body>
+</html>
